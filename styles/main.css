@@ -769,7 +769,7 @@ section:not(#home).fade-in {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--color-background);
+  background-color: var(--color-hover);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -783,6 +783,7 @@ section:not(#home).fade-in {
 .mobile-menu.active {
   opacity: 1;
   visibility: visible;
+  background-color: var(--color-hover);
 }
 
 .mobile-menu .nav__links {
@@ -819,7 +820,7 @@ section:not(#home).fade-in {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: var(--color-primary);
+  background-color: var(--color-hover);
 }
 
 /* Responsive Design */
